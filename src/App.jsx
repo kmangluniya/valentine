@@ -22,7 +22,7 @@ export default function Page() {
       "Maan jaao na",
       "Dil tu jayega mera",
       "Ek baar aur soch lo",
-      "Final answer hai?"
+      "Final answer hai?",
       "Main sad ho jaunga",
       "Dil tut jayega mera",
     ];
