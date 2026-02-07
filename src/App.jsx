@@ -18,20 +18,19 @@ export default function Page() {
       "Really sure?",
       "Think again!",
       "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
+      "Please",
+      "Pretty Please!",
+      "Mere Liye kr do!",
       "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
+      "Maan jaao na",
+      "Dil tu jayega yaaar",
+      "Aise kyu kar rahi ho?",
+      "Ek baar aur soch lo",
       "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Pakka wala final answer:(",
+      "Final wala final answer?",
+      "Main sad ho jaunga",
+      "Dil tut jayega mera",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -44,6 +43,10 @@ export default function Page() {
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
             Ok Yayyyyy!!!
+          </div>
+          <br></br>
+          <div className="text-4xl md:text-6xl font-bold my-4">
+            I Love You PPI
           </div>
         </>
       ) : (
@@ -87,15 +90,5 @@ export default function Page() {
 
 const Footer = () => {
   return (
-    <a
-      className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
-      target="__blank"
-    >
-      Made with{" "}
-      <span role="img" aria-label="heart">
-        ❤️
-      </span>
-    </a>
   );
 };
