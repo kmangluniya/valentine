@@ -13,22 +13,16 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
+      "Nhi",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
+      "Wapas Soch lo",
       "Please",
-      "Pretty Please!",
+      "Pookie ho na meri!",
       "Mere Liye kr do!",
-      "Are you absolutely certain?",
       "Maan jaao na",
-      "Dil tu jayega yaaar",
-      "Aise kyu kar rahi ho?",
+      "Dil tu jayega mera",
       "Ek baar aur soch lo",
-      "Is that your final answer?",
-      "Pakka wala final answer:(",
-      "Final wala final answer?",
+      "Final answer hai?"
       "Main sad ho jaunga",
       "Dil tut jayega mera",
     ];
@@ -46,7 +40,7 @@ export default function Page() {
           </div>
           <br></br>
           <div className="text-4xl md:text-6xl font-bold my-4">
-            I Love You PPI
+             I Love You PPI 
           </div>
         </>
       ) : (
